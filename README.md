@@ -17,7 +17,7 @@
     "clearance": true
   }
   ```
-- To run locally, install Azure Functions Core Tools, and then:
+- To run locally, install _Azure Functions Core Tools_, and then:
   1. Create a .env file at the project's root folder and set the following parameters:
   ```
   FUNCTIONS_CUSTOMHANDLER_PORT=<port-number>
