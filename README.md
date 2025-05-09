@@ -7,16 +7,16 @@
 ## Prerequisites
 - Create an Azure Cosmos DB account / database / container with the partition key "/category"
 - Insert some items in the container mentioned before and follow a document structure like the following:
-```
-{
-  "id": "0001",
-  "category": "gear-surf-surfboards",
-  "name": "Surf board 9000",
-  "quantity": 123,
-  "price": 1900.84,
-  "clearance": true
-}
-```
+  ```
+  {
+    "id": "0001",
+    "category": "gear-surf-surfboards",
+    "name": "Surf board 9000",
+    "quantity": 123,
+    "price": 1900.84,
+    "clearance": true
+  }
+  ```
 - To run locally, install Azure Functions Core Tools, and then:
   1. Create a .env file at the project's root folder and set the following parameters:
   ```
