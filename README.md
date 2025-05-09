@@ -1,0 +1,1 @@
+# rust-az-function-app-cosmos-db
