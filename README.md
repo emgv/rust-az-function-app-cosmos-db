@@ -32,3 +32,5 @@
 - To run on Azure you can setup the same parameters in the Funtion App's environtment variables, just remember to:
   - Change the parameter CFG__ENVIRONMENT to something different than "local"
   - Don't specify the parameter FUNCTIONS_CUSTOMHANDLER_PORT because it is meant to be used only locally
+  - You can deploy using vscode, just follow the steps here https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-other?tabs=rust%2Clinux#sign-in-to-azure
+  - I compiled the source by using ubuntu wsl:
