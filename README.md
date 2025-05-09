@@ -18,7 +18,7 @@
   }
   ```
 - To run locally, install <ins>Azure Functions Core Tools</ins>, and then:
-  1. Create a .env file at the project's root folder and set the following parameters:
+  1. Create a .env file at the project's root folder and add the following parameters:
   ```
   FUNCTIONS_CUSTOMHANDLER_PORT=<port-number>
   CFG__ENVIRONMENT=local
