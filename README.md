@@ -2,7 +2,7 @@
 - Uses Azure SDK for Rust to implement an Http Trigger
 - App Insights integration using a third party library axum-insights / opentelemetry_sdk
 - Connects to Cosmos DB using DefaultAzureCredential locally or AppServiceManagedIdentityCredential on Azure
-- Queries a Cosmos DB database
+- Queries a Cosmos DB database using the Azure SDK
 
 ## Prerequisites
 - Create an Azure Cosmos DB account / database / container with the partition key "/category"
