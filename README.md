@@ -41,7 +41,7 @@
 - To deploy on Azure you can setup the same parameters in the Funtion App's environtment variables, just remember to:
   - Change the parameter CFG__ENVIRONMENT to something different than "local"
   - Don't specify the parameter FUNCTIONS_CUSTOMHANDLER_PORT because it is meant to be used only locally
-  - To compile for a Linux Function App i did it through wsl ubuntu:
+  - To compile for a Linux Function App you can do it with wsl ubuntu:
     1. Install dependencies and build (wsl ubuntu shell):
     ```
     sudo apt install pkg-config libssl-dev musl-dev
