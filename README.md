@@ -34,6 +34,7 @@
   ```
   cd <path-to-the-project-root-folder>
   cargo remove openssl
+  rm handler handler.exe
   cargo build && cp target/debug/rs-function-app.exe handler.exe
   func start
   ```
@@ -48,7 +49,8 @@
     cd /mnt/c/path-to-the-project-root-folder
     cargo add openssl --features vendored
     TARGET_CC=x86_64-linux-musl-gcc cargo build --release --target x86_64-unknown-linux-musl
-    cp target/x86_64-unknown-linux-musl/release/rs-function-app .
+    rm handler handler.exe
+    cp target/x86_64-unknown-linux-musl/release/rs-function-app handler
     ```
     2. The .funcignore file should look like this:
     ```
